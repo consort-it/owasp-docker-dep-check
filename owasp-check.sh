@@ -24,6 +24,6 @@ docker run --rm \
     --volume "$REPORT_DIRECTORY":/report \
     owasp/dependency-check \
     --scan /src \
-    --format "json" \
+    --format "JSON" \
     --project "$PROJECT_NAME"
     # --suppression "/src/security/dependency-check-suppression.xml"
