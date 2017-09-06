@@ -1,6 +1,6 @@
 #!/bin/sh
 
-OWASPDC_DIRECTORY=./owasp-dependency-check
+OWASPDC_DIRECTORY="$(pwd)/owasp-dependency-check"
 DATA_DIRECTORY="$OWASPDC_DIRECTORY/data"
 REPORT_DIRECTORY="$OWASPDC_DIRECTORY/reports"
 
